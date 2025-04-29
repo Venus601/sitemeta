@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>aiii calica</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-start;
+      background: linear-gradient(-45deg, #004aad, #cb6ce6, #004aad);
+      background-size: 600% 600%;
+      animation: gradientAnim 10s ease infinite;
+      font-family: Arial, sans-serif;
+      color: black;
+      text-align: center;
+      padding: 20% 5% 20%;
+    }
+
+    @keyframes gradientAnim {
+      0% { background-position: 0% 50%; }
+      50% { background-position: 100% 50%; }
+      100% { background-position: 0% 50%; }
+    }
+
+    .container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 20px;
+      width: 100%;
+      max-width: 600px;
+    }
+
+    .imagem img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 12px;
+    }
+
+    h1 {
+      font-size: 2.5em;
+      word-break: break-word;
+    }
+
+    .botao {
+      padding: 15px 30px;
+      font-size: 1em;
+      border: none;
+      background-color: #ffffff;
+      color: black;
+      cursor: pointer;
+      border-radius: 8px;
+      transition: background-color 0.3s ease;
+      text-decoration: none;
+    }
+
+    .botao:hover {
+      background-color: #dddddd;
+    }
+
+    @media (max-width: 480px) {
+      h1 {
+        font-size: 2em;
+      }
+
+      .botao {
+        padding: 12px 24px;
+        font-size: 0.9em;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="imagem">
+      <img src="https://i.postimg.cc/KzYvZW3p/photo-2025-04-29-17-34-14-2.jpg" alt="Imagem centralizada">
+    </div>
+
+    <h1>aiii calica</h1>
+
+    <a href="https://t.me/alicezinhamassagens" class="botao">Clique aqui</a>
+  </div>
+</body>
+</html>
